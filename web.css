@@ -1,0 +1,321 @@
+body {
+    padding-top: 80px; 
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .navbar {
+    background-color: #333;
+    color: white;
+}
+
+.navbar-light {
+    background-color: #f8f9fa;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+    
+  }
+
+  
+
+
+  body.dark-mode .navbar {
+    background-color: #333;
+    color: white;
+  }
+
+  body.dark-mode .navbar a {
+    color: #bb86fc;
+  }
+
+  body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+
+  body.dark-mode .card a {
+    color: #bb86fc;
+  }
+
+  body.dark-mode .btn {
+    background-color: #444;
+    color: white;
+    border-color: #555;
+  }
+
+  body.dark-mode .btn:hover {
+    background-color: #555;
+  }
+
+  /* Navbar Toggle Placement */
+  .dark-mode-toggle {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+#fname {
+    color: #f04e19;
+}
+
+li .nav-item:hover{
+    color: #f04e19;
+}
+
+.navbar {
+    background-color: #f8f9fa; /* Light background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.navbar:hover {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.navbar a.nav-link {
+    color: #333; /* Default link color */
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth link color transition */
+}
+
+.navbar a.nav-link:hover {
+    color: #f04e19; /* Highlight link color on hover */
+}
+
+
+#co1, #co2, #co3, #co4, #co5  {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 90%;
+}
+
+#main{
+    margin-top: 100px;
+}
+
+.content {
+    padding-right: 0%; 
+    font-size: 25px;
+}
+
+span {
+    color: #f04e19;
+}
+
+.pic {
+    padding: 20px; 
+    padding-top: 0%;
+
+}
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0; 
+    }
+    to {
+        transform: translateY(0); 
+        opacity: 1; 
+    }
+}
+
+.bg {
+    max-height: 800px;
+    max-width: 100%; 
+    animation: fadeInUp 1s ease-out; 
+    transition: transform 0.3s ease;
+}
+
+.bg:hover {
+    transform: translateY(-10px);
+}
+
+
+@keyframes typing {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 55%; 
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent; /* Cursor blinks */
+    }
+}
+
+.typing-text {
+    display: inline-block;
+    overflow: hidden; 
+    white-space: nowrap; 
+    border-right: 2px solid #f04e19; 
+    font-size: 2rem; 
+    animation: typing 2.5s steps(30, end), blink 0.5s step-end infinite;
+}
+
+
+#services, #abouts, #projects {
+    margin-top: 40px; 
+    margin-bottom: 40px;
+}
+#profile{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 350px;
+    width: auto;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+#btn1{
+    background-color: #f04e19;
+    color: aliceblue;
+}
+
+#project1, #project2{
+    width: 400px;
+}
+#p{
+    border-radius: none;
+}
+
+#project .card-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center the cards */
+  }
+  
+  #project .card {
+    width: 300px; /* Fixed width for larger screens */
+    margin: 15px; /* Spacing around each card */
+    border: 1px solid #ddd; /* Border for all sides */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  #project .card:hover {
+    transform: translateY(-10px); /* Move the card up slightly */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  #project .card img {
+    transition: transform 0.3s ease;
+  }
+  #project .card:hover img {
+    transform: scale(1.05); /* Slightly zoom in the image */
+  }
+
+  #contact {
+    padding: 50px 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+  }
+  
+  #contact-title {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  #contact p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #contact-form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+  }
+  
+  #contact-form .btn {
+    background-color: #f04e19;
+    border-color: #f04e19;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #contact-form .btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    #contact {
+      padding: 30px 10px;
+    }
+  
+    #contact-title {
+      font-size: 2rem;
+    }
+  
+    #contact p {
+      font-size: 1rem;
+    }
+  }
+  
+
+  /* Footer Styles */
+.footer {
+    background-color: #222; /* Dark background */
+    color: #aaa; /* Light text */
+    font-size: 0.9rem;
+  }
+  
+  .footer h5 {
+    color: #fff; /* Bright text for headings */
+  }
+  
+  .footer a {
+    color: #aaa; /* Light text for links */
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #007bff; /* Blue on hover */
+  }
+  
+  .footer .social-icons a {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer .social-icons a:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .footer .social-icons {
+      justify-content: center;
+    }
+  }
+  
+
+
+

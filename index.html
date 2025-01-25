@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="web.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+     <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-3 fw-bold" id="fname" href="#">Mohammed Shihadh k</a>
+    
+    <!-- Dark Mode Toggle Button - Positioned Independently -->
+    <button class="navbar-toggler ms-auto" type="button" id="darkModeToggle">
+      <i class="bi bi-sun" id="darkModeIcon"></i>
+    </button>
+    
+    <!-- Offcanvas Toggle Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end gap-10 flex-grow-1 pe-3" id="ulsty">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home" id="co1">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#service" id="co3">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about" id="co2">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#project" id="co5">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact" id="co4">CONTACT ME</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+      
+    </div>
+  </div>
+  <div class="container-fluid" id="home">
+    <div class="row">
+      
+      <div class="content col-12 col-md-6 d-flex flex-column align-items-center justify-content-center text-center">
+        <h1 class="typing-text">I'm <span>Mohammed</span> Shihad</h1>
+        <p>This is the official website to showcase all my work related to web development and UI design.</p>
+        <a href="cv.pdf" download class="btn btn-dark">Download CV</a>
+      </div>
+      
+
+      <div class="pic col-12 col-md-6 d-flex align-items-center justify-content-center img-fluid">
+        <img class="bg bg-back img-fluid" src="pattern copy.png" alt="Background Pattern">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="service">
+    <div class="row">
+      <div class="col-12 col-md-12 text-center">
+        <h1 class="fw-bold" id="services">Services</h1>
+      </div>
+    <div class="col-12 col-md-4">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="html.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">Learn how to structure and create webpages using HTML. We offer tutorials on basic to advanced HTML, including semantic.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        
+
+
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="css.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">Discover how to style your web pages with CSS. We cover layout techniques, responsive design, and advanced CSS features like animations and transitions.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        
+
+
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="js.png" class="img-fluid rounded-start" alt="JavaScript Logo">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">Master JavaScript to make your websites interactive. Learn everything from DOM manipulation to creating dynamic web applications with JavaScript.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div> 
+  <div class="container-fluid" id="about">
+    <div class="row">
+      <div class="col-12 col-md-12 text-center">
+        <h1 class="fw-bold" id="abouts">About</h1>
+      </div>
+    </div>
+    <div class="col-12 col-md-12">
+      <div class="card mb-3" style="max-width: auto;">
+        <div class="row g-0">
+          <div class="col-md-12 justify-content-center align-items-center d-flex">
+            <img src="about.jpg" class="img-fluid jes" alt="..." id="profile" >
+          </div>
+          <div class="col-md-12">
+            <div class="card-body justify-content-center align-items-center d-flex flex-column">
+              <h5 class="card-title">About me</h5>
+              <p class="card-text">Hi, I’m Shihad—a passionate programmer and aspiring web developer. I thrive on solving problems, creating functional designs, and bringing ideas to life through clean, efficient code.
+
+                Currently, I’m honing my skills in HTML, CSS, and JavaScript, with a focus on building responsive and interactive web applications. From cloning full-fledged websites to experimenting with new features, I’m committed to learning and growing every step of the way.
+                
+                I’m inspired by the potential of technology to make a difference and love crafting digital experiences that are not only functional but also visually engaging. My goal is to merge creativity with technical expertise to deliver impactful solutions.
+                
+                Let’s connect and collaborate on building the future of the web!
+                
+                .</p>
+                <button type="button" id="btn1" class="btn">Contact me</button>
+            </div>
+          </div>
+        </div>
+        
+
+
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid" id="project">
+    <div class="row">
+      <div class="col-12 col-md-12 text-center">
+        <h1 class="fw-bold" id="projects">Projects</h1>
+      </div>
+      <div class="card-group" id="project">
+        <div class="card">
+          <img src="project1.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Grocery website.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="project2.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">clone of Easy.</p>
+          </div>
+        </div>
+      </div>
+        
+
+
+  </div>
+  <div class="container-fluid" id="contact">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="fw-bold" id="contact-title">Contact Me</h1>
+        <p>Feel free to reach out! I'd love to hear from you.</p>
+      </div>
+      <div class="col-12 col-md-6 offset-md-3">
+        <form id="contact-form" onsubmit="sendEmail(); return false;">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn">Send Message</button>
+          </div>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer bg-dark text-light">
+    <div class="container">
+      <div class="row py-4">
+        <!-- About Section -->
+        <div class="col-md-4 col-12 mb-3">
+          <h5>About Me</h5>
+          <p>
+            Hi, I’m Shihad—a passionate web developer focused on creating clean and functional designs.
+          </p>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-md-4 col-12 mb-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#home" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="#about" class="text-light text-decoration-none">About</a></li>
+            <li><a href="#services" class="text-light text-decoration-none">Services</a></li>
+            <li><a href="#projects" class="text-light text-decoration-none">Projects</a></li>
+            <li><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Contact Section -->
+        <div class="col-md-4 col-12 mb-3">
+          <h5>Contact Me</h5>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-envelope me-2"></i> majesticzad786@gmail.com</li>
+            <li><i class="fas fa-phone me-2"></i> +91 8113817363</li>
+            <li><i class="fas fa-map-marker-alt me-2"></i> Malappuram, India</li>
+          </ul>
+          <!-- Social Media Icons -->
+          <div class="social-icons mt-3">
+            <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-light me-3"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-light"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-3">
+        <small>&copy; 2025 Mohammed Shihad. All Rights Reserved.</small>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+  
+
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+  <script src="web.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
